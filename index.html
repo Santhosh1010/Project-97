@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Timer</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+</head>
+<body>
+<center>
+	<h1 class="header">	
+		Timer
+    </h1>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+		<div class="form-group">
+            <h2 id="time_set"> Timer Is Set To: </h2>
+            <br>
+		<h4 text-align="center">Input Time in Minutes</h4>
+		  <input type="text" id="time_input" class="form-control" placeholder="Input Your Time In Minutes">
+		</div>
+        <br>
+        <button id="login_button" class="btn btn-primary" onclick="StartTimer()">Start Timer</button>
+        <br><br>
+		<button id="login_button" class="btn btn-primary" onclick="StopAlarm()">Stop Alarm Sound</button>
+	</div>
+</center>
+</body>
+</html>
